@@ -1,110 +1,190 @@
+
 // ============================================================
-//  YOUR PORTFOLIO CONTENT  —  this is the ONLY file you need to edit.
-//
-//  Rules of the road:
-//   • Keep the quotes "like this" around every piece of text.
-//   • Keep the commas at the end of each line.
-//   • If your text contains a double quote, write it as \"  (or use 'single quotes').
-//   • To remove an optional section, set it to an empty list:  []
-//   • Save the file and refresh index.html to see your changes.
-//   • If the page shows a red error box, you probably deleted a quote or comma.
+// ROBERT LANGA — PORTFOLIO CONTENT
 // ============================================================
 
 const content = {
   // ---------- About you ----------
-  name: "Percy Portfolio",
-  tagline: "Aspiring software developer & professional thumbs-up giver 👍", // one line under your name
+  name: "Robert Langa",
+  tagline: "Software Developer | Computer Science Student | Problem Solver",
 
-  // Put your photo in the assets/ folder and put its file name here.
-  // Square-ish, about 600px wide, under 1 MB works best.
   photo: "assets/photo.jpg",
 
-  // 1–3 sentences: what you care about and what you're looking for.
   mission:
-    "I build friendly, useful software and I'm looking for a co-op where I can learn fast, ship real features, and work with people who love teaching.",
+    "I am a Computer Programming and Analysis Co-op student at Conestoga College with a background in Applied Mathematics and Chemistry from Rhodes University. Through my professional experience at Descartes Systems Group, academic projects, and independent development, I have developed a strong interest in building scalable software solutions. I enjoy solving complex problems, learning new technologies, and collaborating with teams to turn ideas into practical applications.",
 
-  // ---------- Make it yours ----------
+  // ---------- Portfolio appearance ----------
   theme: {
-    // Pick a look:
-    //   "classic" = clean and friendly (the default)
-    //   "techy"   = dark terminal vibes, one tab per section (always dark, always monospace)
-    //   "fancy"   = big serif headings, an arched photo, swipeable project cards
     style: "classic",
-
-    // Pick a preset: "coral", "ocean", "grape", "forest", "sunset", "bubblegum"
-    // ...or use any hex color like "#ff6b9d".
     accent: "ocean",
-
-    // Pick a font: "modern", "serif", "rounded", "mono"
     font: "modern",
-
-    // "auto" follows the visitor's device. You can also force "light" or "dark".
-    // (The "techy" look is always dark.)
     mode: "auto",
   },
 
-  // ---------- Links (shown as buttons at the top) ----------
-  // For email just write the address, e.g. "you@example.com".
+  // ---------- Links ----------
   links: [
-    { label: "GitHub", url: "https://github.com/your-username" },
-    { label: "LinkedIn", url: "https://www.linkedin.com/in/your-name" },
-    { label: "Email", url: "percy@example.com" },
+    {
+      label: "GitHub",
+      url: "https://github.com/Robert-Langa",
+    },
+    {
+      label: "LinkedIn",
+      url: "https://www.linkedin.com/in/robertlanga",
+    },
+    {
+      label: "Email",
+      url: "robertlanga2001@gmail.com",
+    },
   ],
 
-  // ---------- Skills (optional — set to [] to hide) ----------
-  skills: ["JavaScript", "Python", "HTML & CSS", "Git", "Java", "SQL"],
+  // ---------- Technical Skills ----------
+  skills: [
+    "C#",
+    ".NET",
+    "ASP.NET Core",
+    "ASP.NET MVC",
+    "Web API",
+    "Entity Framework Core",
+    "Java",
+    "Python",
+    "JavaScript",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "Blazor",
+    "Razor Pages",
+    "HTML5",
+    "CSS3",
+    "SQL",
+    "PostgreSQL",
+    "SQLite",
+    "MongoDB",
+    "Redis",
+    "REST APIs",
+    "Object-Oriented Programming",
+    "Data Structures & Algorithms",
+    "Unit Testing",
+    "xUnit",
+    "Postman",
+    "Git & GitHub",
+    "Azure DevOps",
+    "Jira",
+    "Agile & Scrum",
+    "Apache Spark",
+    "Hadoop",
+    "Power BI",
+    "AI & LLM Integration",
+    "Figma",
+  ],
 
   // ---------- Projects ----------
-  // Link to the GitHub repo (a live demo is optional — a repo is enough!).
-  // tags are optional.
   projects: [
     {
-      title: "Study Buddy",
-      description: "A web app that matches classmates into study groups based on courses and schedules.",
-      url: "https://github.com/your-username/study-buddy",
-      tags: ["JavaScript", "Node.js"],
+      title: "Restaurant API",
+      description:
+        "Developed a RESTful restaurant API using Java and Spring Boot, exploring backend architecture, authentication, API documentation, and maintainable application design.",
+      url: "https://github.com/Robert-Langa",
+      tags: [
+        "Java",
+        "Spring Boot",
+        "REST API",
+        "Spring Security",
+        "Swagger",
+      ],
     },
     {
-      title: "Campus Eats",
-      description: "A command-line tool that picks where to eat on campus using a very scientific coin flip.",
-      url: "https://github.com/your-username/campus-eats",
-      tags: ["Python"],
+      title: "Todo API",
+      description:
+        "Developed a backend task management application using ASP.NET Core, focusing on RESTful endpoints, application architecture, and database integration.",
+      url: "https://github.com/Robert-Langa",
+      tags: [
+        "C#",
+        ".NET",
+        "ASP.NET Core",
+        "Entity Framework Core",
+        "SQLite",
+      ],
     },
     {
-      title: "Habit Tracker",
-      description: "A tiny mobile-friendly habit tracker that works offline.",
-      url: "https://github.com/your-username/habit-tracker",
-      tags: ["HTML", "CSS", "JavaScript"],
+      title: "Apache Spark E-commerce Analytics",
+      description:
+        "Explored large-scale data processing and e-commerce analytics using Apache Spark and Python, working with data transformation and analytical workflows.",
+      url: "https://github.com/Robert-Langa",
+      tags: [
+        "Python",
+        "Apache Spark",
+        "Big Data",
+        "Data Analytics",
+      ],
+    },
+    {
+      title: "ExamFever",
+      description:
+        "Developed an academic-focused software project, applying programming concepts and software development practices to build an educational solution.",
+      url: "https://github.com/Robert-Langa",
+      tags: [
+        "Software Development",
+        "Programming",
+      ],
+    },
+    {
+      title: "Car Rental Booking API",
+      description:
+        "Worked on a car rental booking application involving backend development, API design, and database-driven functionality.",
+      url: "https://github.com/Robert-Langa",
+      tags: [
+        "C#",
+        ".NET",
+        "Web API",
+        "SQL",
+      ],
     },
   ],
 
   // ---------- Education ----------
   education: [
     {
-      school: "Example College",
-      degree: "Diploma, Computer Programming",
-      years: "2024 – 2027",
-      details: "Relevant courses: Data Structures, Databases, Web Development.", // optional
+      school: "Conestoga College",
+      degree: "Advanced Diploma, Computer Programming and Analysis (Co-op)",
+      years: "2025 – 2028",
+      details:
+        "Expected graduation: April 2028. GPA: 3.81/4.00 (May 2026). Relevant areas include software development, object-oriented programming, databases, data structures, web development, and software engineering.",
+    },
+    {
+      school: "Rhodes University",
+      degree: "Bachelor of Science, Applied Mathematics and Chemistry",
+      years: "2021 – 2024",
+      details:
+        "Developed strong analytical, mathematical, quantitative reasoning, and problem-solving skills. Also gained experience tutoring mathematics and applied mathematics.",
     },
   ],
 
-  // ---------- Work experience (optional — set to [] to hide) ----------
+  // ---------- Professional Experience ----------
   experience: [
     {
-      role: "Peer Tutor",
-      org: "Example College Learning Centre",
-      years: "2025 – present",
-      description: "Help first-year students debug their programming assignments.",
+      role: "Software Developer Intern",
+      org: "The Descartes Systems Group",
+      years: "September 2026 – December 2026",
+      description:
+        "Contributed to software development within a professional SaaS and global logistics technology environment. Worked with Blazor, Razor Pages, React, and JavaScript while collaborating with team members through Agile and Scrum practices. Gained experience working with existing application codebases, object-oriented programming, dependency injection, component-based development, and AI-assisted software development workflows.",
     },
   ],
 
-  // ---------- Extracurriculars (optional — set to [] to hide) ----------
+  // ---------- Leadership & Extracurriculars ----------
   extracurriculars: [
     {
-      role: "Executive Lead",
-      org: "Google Developer Group on Campus",
-      years: "2025 – present",
-      description: "Run workshops and events for student developers.",
+      role: "Peer Assisted Learning (PAL) Student Leader",
+      org: "Conestoga College",
+      years: "May 2025 – May 2026",
+      description:
+        "Facilitated weekly Python programming study sessions for students taking Programming Concepts. Supported students with programming fundamentals, problem-solving, debugging, and understanding course material. Prepared learning resources, revision slides, and collaborative learning activities while working with instructors and program coordinators.",
+    },
+    {
+      role: "Mathematics & Applied Mathematics Tutor",
+      org: "Rhodes University / Independent Tutoring",
+      years: "2021 – 2024",
+      description:
+        "Provided academic tutoring in mathematics and applied mathematics, helping students understand complex concepts, develop analytical thinking, and strengthen problem-solving skills.",
     },
   ],
 };
